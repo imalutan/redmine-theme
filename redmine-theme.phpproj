@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>redmine-theme</Name>
+    <ProjectGuid>{0f887489-7855-4d29-83bc-947bfaf24698}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="favicon\favicon.ico" />
+    <Compile Include="images\bank.svg" />
+    <Compile Include="images\info.svg" />
+    <Compile Include="images\logo.svg" />
+    <Compile Include="images\plugin.svg" />
+    <Compile Include="javascripts\theme.js" />
+    <Compile Include="stylesheets\admin.css" />
+    <Compile Include="stylesheets\application.css" />
+    <Compile Include="stylesheets\buttons.css" />
+    <Compile Include="stylesheets\controller_specific.css" />
+    <Compile Include="stylesheets\custom_responsive.css" />
+    <Compile Include="stylesheets\files.css" />
+    <Compile Include="stylesheets\forums.css" />
+    <Compile Include="stylesheets\header.css" />
+    <Compile Include="stylesheets\icons.css" />
+    <Compile Include="stylesheets\issues.css" />
+    <Compile Include="stylesheets\mobile.css" />
+    <Compile Include="stylesheets\modal.css" />
+    <Compile Include="stylesheets\older.css" />
+    <Compile Include="stylesheets\table.css" />
+    <Compile Include=".gitattributes" />
+    <Compile Include=".gitignore" />
+    <Compile Include="LICENSE" />
+    <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="favicon" />
+    <Folder Include="images" />
+    <Folder Include="javascripts" />
+    <Folder Include="screenshots\" />
+    <Folder Include="stylesheets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="screenshots\activity.png" />
+    <Content Include="screenshots\admin.png" />
+    <Content Include="screenshots\gantt.png" />
+    <Content Include="screenshots\issue-detail.png" />
+    <Content Include="screenshots\issues.png" />
+  </ItemGroup>
+</Project>
