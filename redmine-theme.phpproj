@@ -26,7 +26,6 @@
     <Compile Include="stylesheets\application.css" />
     <Compile Include="stylesheets\buttons.css" />
     <Compile Include="stylesheets\controller_specific.css" />
-    <Compile Include="stylesheets\custom_responsive.css" />
     <Compile Include="stylesheets\files.css" />
     <Compile Include="stylesheets\forums.css" />
     <Compile Include="stylesheets\header.css" />
@@ -54,5 +53,6 @@
     <Content Include="screenshots\gantt.png" />
     <Content Include="screenshots\issue-detail.png" />
     <Content Include="screenshots\issues.png" />
+    <Content Include="stylesheets\responsive.css" />
   </ItemGroup>
 </Project>
